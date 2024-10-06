@@ -1,0 +1,86 @@
+<style>
+  .hyu__footer_row {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    li {
+      display: inline-block;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-right: 10px;
+      font-family: "PT Sans Narrow", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+      font-size: 0.75em;
+    }
+
+    
+    /* li + li:before {
+      content: "";
+      padding-right: 5px;
+    } */
+   
+
+    a {
+      padding-right: 10px;
+      font-weight: bold;
+    }
+  }
+
+  .hyu__footer_col {
+    div {
+      flex-direction: row;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    li {
+      display:list-item;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      font-family: "PT Sans Narrow", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+      font-size: 0.75em;
+    }
+
+    a {
+      padding-right: 10px;
+      font-weight: bold;
+    }
+  }
+
+  .hyu__footer_address {
+    p {
+      font-family: "PT Sans Narrow", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+      font-size: 0.6em;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+</style>
+
+<div class="hyu__footer_row">
+  <ul>
+    <li>
+      <div class="hyu__footer_col">
+        <ul>
+          <li>Contact</li>
+          <li><address>myemail@gmail.com</address></li>
+          <li>+mynumber</li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<div class="hyu__footer_address">
+  <p>MyAddress</p>
+</div>
+
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} MyName.</div>
