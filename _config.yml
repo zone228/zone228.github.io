@@ -21,7 +21,7 @@ title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "MyName."
 description              : "MyDescription"
-url                      : "https://zone228.github.io
+url                      : "https://zone228.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "zone228/zone228.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
